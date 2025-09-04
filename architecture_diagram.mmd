@@ -1,0 +1,9 @@
+graph TD
+    A[Usuário] --> B(PWA Vue.js/Quasar)
+    B -- Chat (Linguagem Natural) --> C{Módulo de Gerenciamento de Tarefas}
+    C -- Interpretação de Intenção (IA) --> D(API do JIRA)
+    D -- Criação/Atualização de Cartão, Registro de Tempo --> E(API do JIRA)
+    E -- Dados do JIRA --> C
+    C -- Resumo, Link do Cartão --> B
+    B -- Exibição --> A
+

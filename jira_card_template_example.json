@@ -1,0 +1,20 @@
+{
+  "task_type": "Desenvolvimento de Funcionalidade",
+  "description": "Template para criação de cartões de desenvolvimento de novas funcionalidades.",
+  "fields": {
+    "project": {
+      "key": "PROJETO"
+    },
+    "issuetype": {
+      "name": "Tarefa"
+    },
+    "summary": "[FEATURE] <Nome da Funcionalidade>",
+    "parent": {
+      "key": "<EPICO_KEY>" 
+    },
+    "customfield_10001": "<Prioridade>",
+    "customfield_10002": "<Estimativa de Tempo>",
+    "customfield_10003": "<Descrição Detalhada>"
+  }
+}
+
